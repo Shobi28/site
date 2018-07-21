@@ -1,0 +1,52 @@
+body{
+ background-color:white;
+ padding:0px;
+ margin:0px;
+}
+.hmenu{
+list-style:none;
+background:white;
+display:inline-block;
+float:right;
+margin-top:35px;
+}
+.hmenu li{
+display:inline-block;
+}
+.hmenu li a{
+text-decoration:none;
+background:transparent;
+display:inline-block;
+padding:8px 14px 8px 14px;
+border:1px solid black;
+color:black;
+}
+.hmenu li a:hover{
+background:deeppink;
+color:white;
+border-radius:5px;
+}
+
+.vmenu{
+list-style:none;
+background:white;
+display:block;
+float:left;
+margin-top:100px;
+}
+.vmenu li{
+display:block;
+}
+.vmenu li a{
+text-decoration:none;
+background:transparent;
+display:block;
+padding:8px 8px 15px 15px;
+color:black;
+border:1px solid black;
+}
+.vmenu li a:hover{
+background:blue;
+color:white;
+border-radius:5px;
+}
